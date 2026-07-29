@@ -1,3 +1,6 @@
+import { renderSite } from "./render";
+import { resolveSite } from "./sites";
+
 type ContactBody = {
 	full_name?: string;
 	phone_number?: string;
@@ -11,7 +14,38 @@ export default {
 			return handleApi(request, url);
 		}
 
-		return env.ASSETS.fetch(request);
+		const site = resolveSite(url.hostname);
+		if (!site) {
+			return new Response("Site not configured for this domain", {
+				status: 404,
+				headers: { "Content-Type": "text/plain; charset=utf-8" },
+			});
+		}
+
+		const isHtml =
+			url.pathname === "/" ||
+			url.pathname === "/index.html" ||
+			url.pathname.endsWith(".html");
+
+		if (!isHtml) {
+			return env.ASSETS.fetch(request);
+		}
+
+		const assetResponse = await env.ASSETS.fetch(request);
+		if (!assetResponse.ok) {
+			return assetResponse;
+		}
+
+		const template = await assetResponse.text();
+		const html = renderSite(template, site);
+
+		return new Response(html, {
+			status: assetResponse.status,
+			headers: {
+				"Content-Type": "text/html; charset=utf-8",
+				"Cache-Control": "public, max-age=60",
+			},
+		});
 	},
 } satisfies ExportedHandler<Env>;
 
@@ -22,10 +56,24 @@ async function handleApi(request: Request, url: URL): Promise<Response> {
 	};
 
 	if (url.pathname === "/api/health") {
-		return Response.json({ ok: true, service: "llc-business-cf" }, { headers });
+		const site = resolveSite(url.hostname);
+		return Response.json(
+			{
+				ok: true,
+				service: "llc-business-cf",
+				host: url.hostname,
+				site: site?.name ?? null,
+			},
+			{ headers },
+		);
 	}
 
 	if (url.pathname === "/api/contact" && request.method === "POST") {
+		const site = resolveSite(url.hostname);
+		if (!site) {
+			return Response.json({ ok: false, error: "Unknown site" }, { status: 404, headers });
+		}
+
 		let body: ContactBody;
 		try {
 			body = (await request.json()) as ContactBody;
@@ -50,6 +98,8 @@ async function handleApi(request: Request, url: URL): Promise<Response> {
 		console.log(
 			JSON.stringify({
 				event: "contact_submit",
+				site: site.name,
+				host: url.hostname,
 				full_name: fullName,
 				phone_number: phone,
 				at: new Date().toISOString(),

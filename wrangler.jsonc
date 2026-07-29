@@ -1,15 +1,16 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "llc-business-cf",
+  "name": "llc",
   "main": "src/index.ts",
   "compatibility_date": "2026-07-29",
   "observability": {
     "enabled": true
   },
   "assets": {
-    "directory": "./public",
+    "directory": "./src/static",
     "binding": "ASSETS",
     "not_found_handling": "404-page",
-    "run_worker_first": ["/api/*"]
+    // Run Worker first so we can inject site data by host
+    "run_worker_first": ["/", "/index.html", "/api/*", "/404.html"]
   }
 }
