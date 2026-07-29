@@ -156,11 +156,11 @@ export const sites: SiteConfig[] = [
   },
   {
     hosts: ["15edutz.thetimenews.us"],
-    name: "Edutz LLC",
+    name: "METEOR, LLC",
     phone: "+18566483757",
     email: "info.15edutz@thetimenews.us",
-    address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
-    facebookAuth: "",
+    address: "8209 ROCHESTER AVE STE 101, RANCHO CUCAMONGA, CA 91730, United States",
+    facebookAuth: "96yeap1f6myefm6cnzunq120na9hxy",
   },
 ];
 
