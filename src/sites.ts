@@ -5,6 +5,7 @@ export type SiteConfig = {
 	phone: string;
 	email: string;
 	address: string;
+	facebookAuth: string;
 };
 
 /**
@@ -23,17 +24,30 @@ export const sites: SiteConfig[] = [
 		],
 		name: "Edutz LLC",
 		phone: "18566483757",
-		email: "info@thetimenews.us",
+		email: "info.edutz@thetimenews.us",
 		address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
+		facebookAuth: ""
 	},
-	// Example: add more domains here
-	// {
-	//   hosts: ["example.com", "www.example.com"],
-	//   name: "Example LLC",
-	//   phone: "10000000000",
-	//   email: "hello@example.com",
-	//   address: "123 Main St, City, ST 00000, United States",
-	// },
+	{
+		hosts: [
+			"edutz7.thetimenews.us",
+		],
+		name: "Edutz LLC",
+		phone: "18566483757",
+		email: "info.edutz7@thetimenews.us",
+		address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
+		facebookAuth: ""
+	},
+	{
+		hosts: [
+			"edutztop.thetimenews.us",
+		],
+		name: "Edutz LLC",
+		phone: "18566483757",
+		email: "info.edutztop@thetimenews.us",
+		address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
+		facebookAuth: ""
+	},
 ];
 
 export function normalizeHost(host: string): string {

@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "llc",
+  "name": "lcc",
   "main": "src/index.ts",
   "compatibility_date": "2026-07-29",
   "observability": {
