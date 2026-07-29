@@ -16,8 +16,6 @@ export const sites: SiteConfig[] = [
 	{
 		hosts: [
 			"edutz.thetimenews.us",
-			"edutz7.thetimenews.us",
-			"edutztop.thetimenews.us",
 			"localhost",
 			"127.0.0.1",
 			"llc.workers.dev", // update after deploy if needed
@@ -26,7 +24,7 @@ export const sites: SiteConfig[] = [
 		phone: "18566483757",
 		email: "info.edutz@thetimenews.us",
 		address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
-		facebookAuth: ""
+		facebookAuth: "1"
 	},
 	{
 		hosts: [
@@ -36,7 +34,7 @@ export const sites: SiteConfig[] = [
 		phone: "18566483757",
 		email: "info.edutz7@thetimenews.us",
 		address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
-		facebookAuth: ""
+		facebookAuth: "gkklowzbujb5a6kwcoomdemg0tyyt2"
 	},
 	{
 		hosts: [
@@ -46,7 +44,7 @@ export const sites: SiteConfig[] = [
 		phone: "18566483757",
 		email: "info.edutztop@thetimenews.us",
 		address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
-		facebookAuth: ""
+		facebookAuth: "9ulyhb17uq2cxwrp2el8fgz956fl9o"
 	},
 ];
 
