@@ -51,7 +51,7 @@ export const sites: SiteConfig[] = [
     facebookAuth: "0o28efxb4fpc6f1pnklef8wm1vlai0",
   },
   {
-    hosts: ["2edutztop.thetimenews.us"],
+    hosts: ["2edutz.thetimenews.us"],
     name: "Edutz LLC",
     phone: "18566483757",
     email: "info.2edutz@thetimenews.us",
@@ -59,7 +59,7 @@ export const sites: SiteConfig[] = [
     facebookAuth: "58bcip9x19ssb1cezred7ebh3kd7sg",
   },
   {
-    hosts: ["3edutztop.thetimenews.us"],
+    hosts: ["3edutz.thetimenews.us"],
     name: "Edutz LLC",
     phone: "18566483757",
     email: "info.3edutz@thetimenews.us",
@@ -67,7 +67,7 @@ export const sites: SiteConfig[] = [
     facebookAuth: "ke9zpizt10hhcu85pmupf69pyp9uy7",
   },
   {
-    hosts: ["4edutztop.thetimenews.us"],
+    hosts: ["4edutz.thetimenews.us"],
     name: "Edutz LLC",
     phone: "18566483757",
     email: "info.4edutz@thetimenews.us",
@@ -75,7 +75,7 @@ export const sites: SiteConfig[] = [
     facebookAuth: "xkwiv6qxy1v28onloosesq37drtfc7",
   },
   {
-    hosts: ["5edutztop.thetimenews.us"],
+    hosts: ["5edutz.thetimenews.us"],
     name: "Edutz LLC",
     phone: "18566483757",
     email: "info.5edutz@thetimenews.us",
@@ -83,7 +83,7 @@ export const sites: SiteConfig[] = [
     facebookAuth: "d99r9jj08w8eo2ygpog38rzfvjcubl",
   },
   {
-    hosts: ["6edutztop.thetimenews.us"],
+    hosts: ["6edutz.thetimenews.us"],
     name: "Edutz LLC",
     phone: "18566483757",
     email: "info.6edutz@thetimenews.us",
@@ -91,7 +91,7 @@ export const sites: SiteConfig[] = [
     facebookAuth: "782jk6qtq9qv1jzi11lk2l3d66c7ig",
   },
   {
-    hosts: ["7edutztop.thetimenews.us"],
+    hosts: ["7edutz.thetimenews.us"],
     name: "Edutz LLC",
     phone: "18566483757",
     email: "info.7edutz@thetimenews.us",
@@ -99,7 +99,7 @@ export const sites: SiteConfig[] = [
     facebookAuth: "",
   },
   {
-    hosts: ["8edutztop.thetimenews.us"],
+    hosts: ["8edutz.thetimenews.us"],
     name: "Edutz LLC",
     phone: "18566483757",
     email: "info.8edutz@thetimenews.us",
@@ -107,7 +107,7 @@ export const sites: SiteConfig[] = [
     facebookAuth: "",
   },
   {
-    hosts: ["9edutztop.thetimenews.us"],
+    hosts: ["9edutz.thetimenews.us"],
     name: "Edutz LLC",
     phone: "18566483757",
     email: "info.9edutz@thetimenews.us",
@@ -115,7 +115,7 @@ export const sites: SiteConfig[] = [
     facebookAuth: "",
   },
   {
-    hosts: ["10edutztop.thetimenews.us"],
+    hosts: ["10edutz.thetimenews.us"],
     name: "Edutz LLC",
     phone: "18566483757",
     email: "info.10edutz@thetimenews.us",
@@ -123,7 +123,7 @@ export const sites: SiteConfig[] = [
     facebookAuth: "",
   },
   {
-    hosts: ["11edutztop.thetimenews.us"],
+    hosts: ["11edutz.thetimenews.us"],
     name: "Edutz LLC",
     phone: "18566483757",
     email: "info.11edutz@thetimenews.us",
@@ -131,7 +131,7 @@ export const sites: SiteConfig[] = [
     facebookAuth: "",
   },
   {
-    hosts: ["12edutztop.thetimenews.us"],
+    hosts: ["12edutz.thetimenews.us"],
     name: "Edutz LLC",
     phone: "18566483757",
     email: "info.12edutz@thetimenews.us",
@@ -139,7 +139,7 @@ export const sites: SiteConfig[] = [
     facebookAuth: "",
   },
   {
-    hosts: ["13edutztop.thetimenews.us"],
+    hosts: ["13edutz.thetimenews.us"],
     name: "Edutz LLC",
     phone: "18566483757",
     email: "info.13edutz@thetimenews.us",
@@ -147,7 +147,7 @@ export const sites: SiteConfig[] = [
     facebookAuth: "",
   },
   {
-    hosts: ["14edutztop.thetimenews.us"],
+    hosts: ["14edutz.thetimenews.us"],
     name: "Edutz LLC",
     phone: "18566483757",
     email: "info.14edutz@thetimenews.us",
@@ -155,7 +155,7 @@ export const sites: SiteConfig[] = [
     facebookAuth: "",
   },
   {
-    hosts: ["15edutztop.thetimenews.us"],
+    hosts: ["15edutz.thetimenews.us"],
     name: "Edutz LLC",
     phone: "18566483757",
     email: "info.15edutz@thetimenews.us",
