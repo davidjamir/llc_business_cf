@@ -21,7 +21,7 @@ export const sites: SiteConfig[] = [
       "llc.workers.dev", // update after deploy if needed
     ],
     name: "Edutz LLC",
-    phone: "18566483757",
+    phone: "+18566483757",
     email: "info.edutz@thetimenews.us",
     address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
     facebookAuth: "",
@@ -29,7 +29,7 @@ export const sites: SiteConfig[] = [
   {
     hosts: ["edutz7.thetimenews.us"],
     name: "Edutz LLC",
-    phone: "18566483757",
+    phone: "+18566483757",
     email: "info.edutz7@thetimenews.us",
     address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
     facebookAuth: "gkklowzbujb5a6kwcoomdemg0tyyt2",
@@ -37,7 +37,7 @@ export const sites: SiteConfig[] = [
   {
     hosts: ["edutztop.thetimenews.us"],
     name: "Edutz LLC",
-    phone: "18566483757",
+    phone: "+18566483757",
     email: "info.edutztop@thetimenews.us",
     address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
     facebookAuth: "9ulyhb17uq2cxwrp2el8fgz956fl9o",
@@ -45,7 +45,7 @@ export const sites: SiteConfig[] = [
   {
     hosts: ["1edutz.thetimenews.us"],
     name: "Edutz LLC",
-    phone: "18566483757",
+    phone: "+18566483757",
     email: "info.1edutzp@thetimenews.us",
     address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
     facebookAuth: "0o28efxb4fpc6f1pnklef8wm1vlai0",
@@ -53,7 +53,7 @@ export const sites: SiteConfig[] = [
   {
     hosts: ["2edutz.thetimenews.us"],
     name: "Edutz LLC",
-    phone: "18566483757",
+    phone: "+18566483757",
     email: "info.2edutz@thetimenews.us",
     address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
     facebookAuth: "58bcip9x19ssb1cezred7ebh3kd7sg",
@@ -61,7 +61,7 @@ export const sites: SiteConfig[] = [
   {
     hosts: ["3edutz.thetimenews.us"],
     name: "Edutz LLC",
-    phone: "16267694999",
+    phone: "+16267694999",
     email: "info.3edutz@thetimenews.us",
     address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
     facebookAuth: "ke9zpizt10hhcu85pmupf69pyp9uy7",
@@ -69,7 +69,7 @@ export const sites: SiteConfig[] = [
   {
     hosts: ["4edutz.thetimenews.us"],
     name: "Edutz LLC",
-    phone: "16267694999",
+    phone: "+16267694999",
     email: "info.4edutz@thetimenews.us",
     address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
     facebookAuth: "xkwiv6qxy1v28onloosesq37drtfc7",
@@ -77,7 +77,7 @@ export const sites: SiteConfig[] = [
   {
     hosts: ["5edutz.thetimenews.us"],
     name: "Edutz LLC",
-    phone: "16578456314",
+    phone: "+16578456314",
     email: "info.5edutz@thetimenews.us",
     address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
     facebookAuth: "d99r9jj08w8eo2ygpog38rzfvjcubl",
@@ -85,7 +85,7 @@ export const sites: SiteConfig[] = [
   {
     hosts: ["6edutz.thetimenews.us"],
     name: "Edutz LLC",
-    phone: "16578456314",
+    phone: "+16578456314",
     email: "info.6edutz@thetimenews.us",
     address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
     facebookAuth: "782jk6qtq9qv1jzi11lk2l3d66c7ig",
@@ -93,7 +93,7 @@ export const sites: SiteConfig[] = [
   {
     hosts: ["7edutz.thetimenews.us"],
     name: "Edutz LLC",
-    phone: "18566483757",
+    phone: "+18566483757",
     email: "info.7edutz@thetimenews.us",
     address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
     facebookAuth: "b8tcp2jefvhsecl51wwdujea7od7r3",
@@ -101,7 +101,7 @@ export const sites: SiteConfig[] = [
   {
     hosts: ["8edutz.thetimenews.us"],
     name: "Edutz LLC",
-    phone: "18566483757",
+    phone: "+18566483757",
     email: "info.8edutz@thetimenews.us",
     address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
     facebookAuth: "4r066iz6mnhv0von5nkx4j815ez0gh",
@@ -109,7 +109,7 @@ export const sites: SiteConfig[] = [
   {
     hosts: ["9edutz.thetimenews.us"],
     name: "Edutz LLC",
-    phone: "16267694999",
+    phone: "+16267694999",
     email: "info.9edutz@thetimenews.us",
     address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
     facebookAuth: "lu5y3tochxyzdyo4zohsrzccj3fh8h",
@@ -117,7 +117,7 @@ export const sites: SiteConfig[] = [
   {
     hosts: ["10edutz.thetimenews.us"],
     name: "Edutz LLC",
-    phone: "16267694999",
+    phone: "+16267694999",
     email: "info.10edutz@thetimenews.us",
     address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
     facebookAuth: "1b0ohjn6bzcygumkd7jg1o5zpf4lt0",
@@ -125,7 +125,7 @@ export const sites: SiteConfig[] = [
   {
     hosts: ["11edutz.thetimenews.us"],
     name: "Edutz LLC",
-    phone: "16578456314",
+    phone: "+16578456314",
     email: "info.11edutz@thetimenews.us",
     address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
     facebookAuth: "xjakvx2dxw939ca5c78amth040w5tt",
@@ -133,7 +133,7 @@ export const sites: SiteConfig[] = [
   {
     hosts: ["12edutz.thetimenews.us"],
     name: "Edutz LLC",
-    phone: "16578456314",
+    phone: "+16578456314",
     email: "info.12edutz@thetimenews.us",
     address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
     facebookAuth: "0p3rjiinvuh0jj9u9m9oabyjw5udmd",
@@ -141,7 +141,7 @@ export const sites: SiteConfig[] = [
   {
     hosts: ["13edutz.thetimenews.us"],
     name: "Edutz LLC",
-    phone: "18566483757",
+    phone: "+18566483757",
     email: "info.13edutz@thetimenews.us",
     address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
     facebookAuth: "auq0i233tyawvpp7mlcg6n01u8o641",
@@ -149,7 +149,7 @@ export const sites: SiteConfig[] = [
   {
     hosts: ["14edutz.thetimenews.us"],
     name: "Edutz LLC",
-    phone: "16578456314",
+    phone: "+16578456314",
     email: "info.14edutz@thetimenews.us",
     address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
     facebookAuth: "d9yhd8crl61ycgfczp7epumwazx29p",
@@ -157,7 +157,7 @@ export const sites: SiteConfig[] = [
   {
     hosts: ["15edutz.thetimenews.us"],
     name: "Edutz LLC",
-    phone: "18566483757",
+    phone: "+18566483757",
     email: "info.15edutz@thetimenews.us",
     address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
     facebookAuth: "",
