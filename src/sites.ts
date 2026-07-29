@@ -61,7 +61,7 @@ export const sites: SiteConfig[] = [
   {
     hosts: ["3edutz.thetimenews.us"],
     name: "Edutz LLC",
-    phone: "18566483757",
+    phone: "16267694999",
     email: "info.3edutz@thetimenews.us",
     address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
     facebookAuth: "ke9zpizt10hhcu85pmupf69pyp9uy7",
@@ -69,7 +69,7 @@ export const sites: SiteConfig[] = [
   {
     hosts: ["4edutz.thetimenews.us"],
     name: "Edutz LLC",
-    phone: "18566483757",
+    phone: "16267694999",
     email: "info.4edutz@thetimenews.us",
     address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
     facebookAuth: "xkwiv6qxy1v28onloosesq37drtfc7",
@@ -77,7 +77,7 @@ export const sites: SiteConfig[] = [
   {
     hosts: ["5edutz.thetimenews.us"],
     name: "Edutz LLC",
-    phone: "18566483757",
+    phone: "16578456314",
     email: "info.5edutz@thetimenews.us",
     address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
     facebookAuth: "d99r9jj08w8eo2ygpog38rzfvjcubl",
@@ -85,7 +85,7 @@ export const sites: SiteConfig[] = [
   {
     hosts: ["6edutz.thetimenews.us"],
     name: "Edutz LLC",
-    phone: "18566483757",
+    phone: "16578456314",
     email: "info.6edutz@thetimenews.us",
     address: "2954 West Canyon Ave., San Diego, CA 92123, United States",
     facebookAuth: "782jk6qtq9qv1jzi11lk2l3d66c7ig",
