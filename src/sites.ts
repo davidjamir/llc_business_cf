@@ -159,7 +159,7 @@ export const sites: SiteConfig[] = [
     name: "METEOR, LLC",
     phone: "+18566483757",
     email: "info.15edutz@thetimenews.us",
-    address: "8209 ROCHESTER AVE STE 101, RANCHO CUCAMONGA, CA 91730, United States",
+    address: "33 MALIBU, IRVINE, CA 92602, United States",
     facebookAuth: "96yeap1f6myefm6cnzunq120na9hxy",
   },
 ];
